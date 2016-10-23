@@ -23,6 +23,8 @@
             var howLongBetweenPolls = function (batchModel) {
                 var milliseconds = batchModel.NumberOfThingsToDo / 500;
 
+                // Ensure we don't poll too frequently or infrequently
+
                 if (milliseconds < 350)
                     milliseconds = 350;
                 if (milliseconds > 4000)
