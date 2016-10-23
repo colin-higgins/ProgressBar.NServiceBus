@@ -8,3 +8,6 @@ In order to view the demo, start debug instances of the following projects respe
  - **ProgressBarMVC**
  
  
+ ### How to start a debug instance
+ 
+ ![How to start a new debug instance](start_instance.png "Starting a new debug instance")
